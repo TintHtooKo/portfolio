@@ -1,0 +1,56 @@
+.contact{
+    margin: 5% 0;
+}
+
+.contact h1{
+    color: white;
+    font-weight: bold;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.code img{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.easy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 30px 0;
+}
+
+.easy h4{
+    color: white;
+}
+
+.easy p{
+    color: white;
+}
+
+.qr{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 60px;
+}
+
+.code{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+@media(max-width:576px){
+    .contact h1{
+        font-size: 2rem;
+    }
+
+    .qr{
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+}
